@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.issue-box{
+    background-color: rgb(230, 229, 225);
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    text-align: center;
+}
+.issue-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+input,select,textarea{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    outline: none;
+}
+#submit{
+    outline: none;
+    width: 100px;
+    padding: 0.5em 0;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.issues{
+    width: 100%;
+    padding-top: 1.5rem;
+
+}
+.low{
+    background-color: rgb(230, 229, 225);
+}
+.medium{
+    background-color: rgb(244, 234, 96);
+}
+.high{
+    background-color: rgb(223, 105, 105);
+}
+.issue{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+
+}
+.issue>p{
+    margin-left: 1rem;
+}
+.badge{
+    font-size: 1.2rem;
+    background-color: rgb(75, 75, 231);
+    color: #fff;
+    padding: 0.1em 0.5em;
+    border-radius: 25px;
+    margin: 0.3em 0;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.1rem 1rem ;
+    background-color: red;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.btn-close{
+    margin-left: 1rem;
+}
